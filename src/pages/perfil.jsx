@@ -11,7 +11,7 @@ const Perfil = () => {
 
   return (
     <div className='flex flex-col p-10 items-center'>
-      <h1 className='text-2xl font-bold text-gray-800 my-4'>Ingresa los datos de tu perfil</h1>
+      <h1 className='text-2xl font-bold text-gray-800 my-4'>Ingresa tu información personal</h1>
       <form
         ref={form}
         onChange={updateFormData}
