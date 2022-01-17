@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.linkNavegacionInactivo {
+  @apply text-white mx-2 border-b-2 cursor-pointer hover:text-orange-500 hover:border-orange-500;
+}
+
+.linkNavegacionActivo {
+  @apply text-orange-300 border-orange-300 mx-2 border-b-2 cursor-pointer hover:text-orange-500 hover:border-orange-500;
+}
+
+input {
+  @apply my-2 p-2 border-2 border-indigo-500 rounded-lg outline-none focus:border-indigo-700 w-64;
+}
+
+.button-submit {
+  @apply p-2 bg-indigo-700 text-white rounded-lg shadow-lg hover:bg-indigo-800 hover:font-bold w-48 my-2;
+}
